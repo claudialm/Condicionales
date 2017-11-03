@@ -22,9 +22,40 @@ nota = Float.parseFloat(JOptionPane.showInputDialog("Ingrese  nota"));
 if (nota==7) 
 
 {
-   
+   JOptionPane.showMessageDialog(null, "Notable"+nota);
+}
+else
+{
+    if (nota==6) 
+    
+    {
+       JOptionPane.showMessageDialog(null, "Bien"+nota); 
+    }
+    else
+    {
+    JOptionPane.showMessageDialog(null, "");
+    }
+    if (nota>4&&nota<=5) 
+    {
+     JOptionPane.showMessageDialog(null, "Suficiente"); 
+    }
+    else
+    {
+    
+    }
+
+    if (nota<4) 
+    {
+      JOptionPane.showMessageDialog(null, "Insuficiente");   
+    }
+
+
 }
   
   
-  }
+    }
+
+
 }
+
+
