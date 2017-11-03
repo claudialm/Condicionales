@@ -4,11 +4,27 @@
  * and open the template in the editor.
  */
 package condicionales;
+import javax.swing.JOptionPane;
+
 
 /**
  *
  * @author LAB03
  */
-public class Calificaciones2 {
-    
+public class Calificaciones2 
+{
+  public static void main(String[] args)  
+  {
+float nota;
+
+nota = Float.parseFloat(JOptionPane.showInputDialog("Ingrese  nota"));
+
+if (nota==7) 
+
+{
+   
+}
+  
+  
+  }
 }
